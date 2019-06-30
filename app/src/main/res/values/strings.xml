@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Receitaria</string>
+
+
+    <!-- OUTROS -->
+    <string name="utf_8">UTF-8</string>
+    
+    <!-- API -->
+    <string name="id">id</string>
+    <string name="title">title</string>
+    <string name="name">"name"</string>
+    <string name="ingredients">"ingredients"</string>
+    <string name="steps">"steps"</string>
+    <string name="quantity">quantity</string>
+    <string name="ingredient">ingredient</string>
+    <string name="servings">servings</string>
+    <string name="measure">measure</string>
+    <string name="urlAPIBase">https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json</string>
+
+    <string name="description">description</string>
+    <string name="shortDescription">shortDescription</string>
+    <string name="videourl">videoURL</string>
+    <string name="thumbnailURL">thumbnailURL</string>
+
+
+    <!--Nome Variaveis Intent-->
+    <string name="nomeReceita">nomeReceita</string>
+    <string name="listaIngredientes">listaIngredientes</string>
+    <string name="listaEtapas">listaEtapas</string>
+    <string name="rendimentoPorcao">rendimentoPorcao</string>
+    <string name="pacoteBundle">pacoteBundle</string>
+    <string name="versaoTablet">versaoTablet</string>
+    <string name="telaEtapasReceitaAtiva">telaEtapasReceitaAtiva</string>
+    <string name="posicao">posicao</string>
+    <string name="posicaoAtualVideo">posicaoAtualVideo</string>
+
+
+    <string-array name="nomePaginas">
+        <item>Receitas</item>
+        <item>Etapas</item>
+    </string-array>
+
+
+    <!-- MENSAGENS-->
+    <string name="rende">Rende</string>
+    <string name="porcao">porçao</string>
+    <string name="porcoes">porções</string>
+    <string name="verificar_rede">Verifique sua conexão com a rede!</string>
+    <string name="ingredientes_usados">Os ingredientes usados são os seguintes:</string>
+    <string name="nossas_receitas">Segue nossas principais receitas!</string>
+</resources>

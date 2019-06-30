@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Principal.TelaInicial"
+    android:background="@color/colorWhite">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="40dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark">
+
+        <TextView
+            style="@style/Titulos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:paddingBottom="55dp"
+            android:textSize="56sp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/subTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/nossas_receitas"
+        android:textSize="15sp"
+        android:layout_below="@id/cardViewTitulo"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewReceitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_below="@id/subTitulo"
+        android:paddingBottom="20dp"/>
+
+</RelativeLayout>
